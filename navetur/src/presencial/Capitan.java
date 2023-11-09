@@ -1,11 +1,11 @@
 package presencial;
 
-public class capitan {
+public class Capitan {
     private String nombre;
     private String apellido;
     private String matriculaNavegacion;
 
-    public capitan(String nombre, String apellido, String matriculaNavegacion) {
+    public Capitan(String nombre, String apellido, String matriculaNavegacion) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.matriculaNavegacion = matriculaNavegacion;

@@ -1,10 +1,10 @@
 package presencial;
 
-public class velero extends embarcacion{
+public class Velero extends Embarcacion {
 
     private Integer mastiles;
 
-    public velero(capitan capitan, Integer precioBase, Integer valorAdicional, Integer anoFabricacion, Integer eslora, Integer mastiles) {
+    public Velero(presencial.Capitan capitan, Integer precioBase, Integer valorAdicional, Integer anoFabricacion, Integer eslora, Integer mastiles) {
         super(capitan, precioBase, valorAdicional, anoFabricacion, eslora);
         this.mastiles = mastiles;
     }

@@ -1,13 +1,13 @@
 package presencial;
 
-public abstract class embarcacion {
-    private capitan Capitan;
+public abstract class Embarcacion {
+    private presencial.Capitan Capitan;
     private Integer precioBase;
     private Integer valorAdicional;
     private Integer anoFabricacion;
     private Integer eslora;
 
-    public embarcacion(capitan capitan, Integer precioBase, Integer valorAdicional, Integer anoFabricacion, Integer eslora) {
+    public Embarcacion(presencial.Capitan capitan, Integer precioBase, Integer valorAdicional, Integer anoFabricacion, Integer eslora) {
         Capitan = capitan;
         this.precioBase = precioBase;
         this.valorAdicional = valorAdicional;
