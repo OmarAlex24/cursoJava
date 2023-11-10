@@ -1,7 +1,7 @@
 package presencial;
 
 public class Yate extends Embarcacion {
-    private Integer camarotes;
+    public Integer camarotes;
 
     public Yate(presencial.Capitan capitan, Integer precioBase, Integer valorAdicional, Integer anoFabricacion, Integer eslora, Integer camarotes) {
         super(capitan, precioBase, valorAdicional, anoFabricacion, eslora);

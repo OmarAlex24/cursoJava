@@ -15,10 +15,18 @@ public class Main {
             System.out.println("Su yate es mas lujoso");
         }
 
-        if(miVelero.evaluar()){
-            System.out.println("Mi yate es lujoso");
+        miYate.camarotes = 5;
+
+        if(miYate.comparar(yateOtroWey)){
+            System.out.println("Mi yate es mas lujoso");
         } else {
-            System.out.println("Mi yate no es lujoso");
+            System.out.println("Su yate es mas lujoso");
+        }
+
+        if(miVelero.evaluar()){
+            System.out.println("Mi velero es lujoso");
+        } else {
+            System.out.println("Mi velero no es lujoso");
         }
     }
 }
